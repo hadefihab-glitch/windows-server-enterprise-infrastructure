@@ -38,41 +38,108 @@ Au cours de ce projet, j’ai réalisé :
 ---
 # 📸 Captures du projet
 
-## 01 — Services Windows Server
+# 📸 Captures du projet
+
+## 🖥️ Services Windows Server
+
+Installation et configuration des principaux services Windows Server : Active Directory Domain Services (AD DS), DNS, DHCP et services de fichiers.
+
 ![Services Windows Server](screenshots/01-windows-server-services.png)
 
-## 02 — Configuration de la plage DHCP
-![DHCP](screenshots/02-dhcp-address-pool.png)
+---
 
-## 03 — Configuration WAN et LAN de pfSense
-![pfSense WAN LAN](screenshots/03-pfsense-wan-lan.png)
+## 🌐 Configuration de la plage DHCP
 
-## 04 — Interface Web pfSense
-![pfSense Dashboard](screenshots/04-pfsense-dashboard.png)
+Configuration d'une plage d'adresses DHCP permettant l'attribution automatique des paramètres réseau aux postes clients.
 
-## 05 — Configuration réseau du serveur
-![Server Network](screenshots/05-server-network-configuration.png)
+![Configuration DHCP](screenshots/02-dhcp.png)
 
-## 06 — Organisation des OU et des utilisateurs
-![Active Directory](screenshots/06-active-directory-ou-users.png)
+---
 
-## 07 — OU Direction et utilisateur
-![OU Direction](screenshots/07-ou-direction-user.png)
+## 🔥 Configuration WAN et LAN de pfSense
 
-## 08 — Groupe de sécurité GRP-RH
-![GRP-RH](screenshots/08-grp-rh-security-group.png)
+Configuration des interfaces réseau WAN et LAN de pfSense afin d'assurer la communication entre le réseau interne et le réseau externe.
 
-## 09 — Configuration de la GPO Direction
+![Interfaces pfSense](screenshots/03-pfsense-wan-lan.png)
+
+---
+
+## 🔐 Interface Web pfSense
+
+Accès à l'interface Web d'administration de pfSense pour gérer et superviser le pare-feu et les interfaces réseau.
+
+![Tableau de bord pfSense](screenshots/04-pfsense-dashboard.png)
+
+---
+
+## 🌐 Configuration réseau du serveur
+
+Vérification de la configuration IP du serveur Windows et de sa passerelle réseau.
+
+![Configuration réseau](screenshots/05-server-network.png)
+
+---
+
+## 👥 Organisation Active Directory
+
+Création des unités d'organisation (OU) RH et Direction et organisation des utilisateurs dans Active Directory.
+
+![Active Directory OU](screenshots/06-active-directory-ou.png)
+
+---
+
+## 👤 OU Direction
+
+Création de l'OU Direction et ajout de l'utilisateur Ahmed Directeur dans Active Directory.
+
+![OU Direction](screenshots/07-ou-direction.png)
+
+---
+
+## 👥 Groupe de sécurité GRP-RH
+
+Création et configuration du groupe de sécurité GRP-RH avec ajout des utilisateurs du service RH.
+
+![GRP-RH](screenshots/08-grp-rh.png)
+
+---
+
+## 🔒 Configuration de la GPO Direction
+
+Configuration d'une stratégie de groupe (GPO) pour appliquer des restrictions aux utilisateurs de l'OU Direction.
+
 ![GPO Direction](screenshots/09-gpo-direction.png)
 
-## 10 — Validation de la GPO Direction
-![GPO Validation](screenshots/10-gpo-direction-validation.png)
+---
 
-## 11 — Configuration IP du poste client
-![Client IP](screenshots/11-client-ip-configuration.png)
+## ✅ Validation de la GPO
 
-## 12 — Vérification de l'utilisateur du domaine
-![Domain User](screenshots/12-domain-user-verification.png)
+Vérification de l'application de la stratégie GPO-DIRECTION sur le poste utilisateur.
 
+![Validation GPO](screenshots/10-gpo-validation.png)
+
+---
+
+## 💻 Configuration IP du poste client
+
+Vérification de l'adresse IP obtenue par le poste client depuis le serveur DHCP.
+
+![Configuration IP Client](screenshots/11-client-ip.png)
+
+---
+
+## 🌐 Vérification du domaine
+
+Vérification de la connexion du poste client au réseau et au domaine Active Directory.
+
+![Utilisateur domaine](screenshots/12-domain-user.png)
+
+---
+
+## 🔑 Connexion Active Directory
+
+Connexion réussie d'un utilisateur Active Directory sur un poste Windows membre du domaine.
+
+![Connexion Active Directory](screenshots/13-ad-login.png)
 ## 13 — Connexion de l'utilisateur Active Directory
 ![AD Login](screenshots/13-active-directory-login.png)
