@@ -38,11 +38,9 @@ Au cours de ce projet, j’ai réalisé :
 ---
 # 📸 Captures du projet
 
-# 📸 Captures du projet
-
 ## 🖥️ Services Windows Server
 
-Installation et configuration des principaux services Windows Server : Active Directory Domain Services (AD DS), DNS, DHCP et services de fichiers.
+Configuration des principaux services Windows Server.
 
 ![Services Windows Server](screenshots/windows-server-services.png)
 
@@ -50,96 +48,94 @@ Installation et configuration des principaux services Windows Server : Active Di
 
 ## 🌐 Configuration de la plage DHCP
 
-Configuration d'une plage d'adresses DHCP permettant l'attribution automatique des paramètres réseau aux postes clients.
+Configuration de la plage d’adresses DHCP sous Windows Server.
 
-![Configuration DHCP](screenshots/02-dhcp.png)
+![Configuration DHCP](screenshots/Configuration%20de%20la%20plage%20d’adresses%20DHCP%20sous%20Windows%20Server.png)
 
 ---
 
 ## 🔥 Configuration WAN et LAN de pfSense
 
-Configuration des interfaces réseau WAN et LAN de pfSense afin d'assurer la communication entre le réseau interne et le réseau externe.
+Configuration des interfaces réseau WAN et LAN de pfSense.
 
-![Interfaces pfSense](screenshots/03-pfsense-wan-lan.png)
-
----
-
-## 🔐 Interface Web pfSense
-
-Accès à l'interface Web d'administration de pfSense pour gérer et superviser le pare-feu et les interfaces réseau.
-
-![Tableau de bord pfSense](screenshots/04-pfsense-dashboard.png)
+![Interfaces pfSense](screenshots/Configuration%20des%20interfaces%20réseau%20WAN%20et%20LAN%20de%20pfSense.png)
 
 ---
 
-## 🌐 Configuration réseau du serveur
+## 🔐 Interface Web d’administration de pfSense
 
-Vérification de la configuration IP du serveur Windows et de sa passerelle réseau.
+Accès au tableau de bord Web de pfSense.
 
-![Configuration réseau](screenshots/05-server-network.png)
+![Tableau de bord pfSense](screenshots/Interface%20Web%20d’administration%20de%20pfSense%20–%20Tableau%20de%20bord.png)
 
 ---
 
 ## 👥 Organisation Active Directory
 
-Création des unités d'organisation (OU) RH et Direction et organisation des utilisateurs dans Active Directory.
+Création des OU RH et Direction et gestion des utilisateurs dans Active Directory.
 
-![Active Directory OU](screenshots/06-active-directory-ou.png)
+![Active Directory](screenshots/Création%20des%20OU%20RH%20et%20Direction%20et%20gestion%20des%20utilisateurs%20dans%20Active%20Directory.png)
 
 ---
 
 ## 👤 OU Direction
 
-Création de l'OU Direction et ajout de l'utilisateur Ahmed Directeur dans Active Directory.
+Création de l’OU Direction et ajout de l’utilisateur Ahmed Directeur.
 
-![OU Direction](screenshots/07-ou-direction.png)
+![OU Direction](screenshots/Création%20de%20l’OU%20Direction%20et%20ajout%20de%20l’utilisateur%20Ahmed%20Directeur.png)
 
 ---
 
 ## 👥 Groupe de sécurité GRP-RH
 
-Création et configuration du groupe de sécurité GRP-RH avec ajout des utilisateurs du service RH.
+Ajout des utilisateurs RH au groupe de sécurité GRP-RH.
 
-![GRP-RH](screenshots/08-grp-rh.png)
+![GRP-RH](screenshots/Ajout%20des%20utilisateurs%20RH%20au%20groupe%20de%20sécurité%20GRP-RH.png)
 
 ---
 
 ## 🔒 Configuration de la GPO Direction
 
-Configuration d'une stratégie de groupe (GPO) pour appliquer des restrictions aux utilisateurs de l'OU Direction.
+Configuration de la GPO Direction avec restriction du Gestionnaire des tâches.
 
-![GPO Direction](screenshots/09-gpo-direction.png)
-
----
-
-## ✅ Validation de la GPO
-
-Vérification de l'application de la stratégie GPO-DIRECTION sur le poste utilisateur.
-
-![Validation GPO](screenshots/10-gpo-validation.png)
+![GPO Direction](screenshots/Configuration%20de%20la%20GPO%20Direction%20–%20Restriction%20du%20Gestionnaire%20des%20tâches.png)
 
 ---
 
-## 💻 Configuration IP du poste client
+## ✅ Vérification de la GPO-DIRECTION
 
-Vérification de l'adresse IP obtenue par le poste client depuis le serveur DHCP.
+Vérification de l’application de la GPO-DIRECTION sur l’utilisateur Ahmed Directeur.
 
-![Configuration IP Client](screenshots/11-client-ip.png)
+![Validation GPO](screenshots/Vérification%20de%20l’application%20de%20la%20GPO-DIRECTION%20sur%20l’utilisateur%20Ahmed%20Directeur.png)
 
 ---
 
-## 🌐 Vérification du domaine
+## 💻 Configuration IP du poste Ahmed Directeur
 
-Vérification de la connexion du poste client au réseau et au domaine Active Directory.
+Vérification de la configuration IP du poste Ahmed Directeur et de la passerelle pfSense.
 
-![Utilisateur domaine](screenshots/12-domain-user.png)
+![Configuration IP](screenshots/Vérification%20de%20la%20configuration%20IP%20du%20poste%20Ahmed%20Directeur%20et%20de%20la%20passerelle%20pfSense.png)
+
+---
+
+## 🌐 Vérification de la configuration réseau
+
+Vérification de la configuration réseau DHCP et de la passerelle pfSense.
+
+![Configuration réseau](screenshots/Vérification%20de%20la%20configuration%20réseau%20DHCP%20et%20de%20la%20passerelle%20pfSense.png)
+
+---
+
+## 👤 Vérification de la connexion au domaine
+
+Vérification de la connexion de l’utilisateur Ahmed Directeur au domaine Active Directory.
+
+![Connexion domaine](screenshots/Vérification%20de%20la%20connexion%20de%20l’utilisateur%20Ahmed%20Directeur%20au%20domaine%20Active%20Directory.png)
 
 ---
 
 ## 🔑 Connexion Active Directory
 
-Connexion réussie d'un utilisateur Active Directory sur un poste Windows membre du domaine.
+Connexion réussie d’un utilisateur Active Directory sur un poste client.
 
-![Connexion Active Directory](screenshots/13-ad-login.png)
-## 13 — Connexion de l'utilisateur Active Directory
-![AD Login](screenshots/13-active-directory-login.png)
+![Connexion Active Directory](screenshots/Connexion%20réussie%20d’un%20utilisateur%20Active%20Directory%20sur%20un%20poste%20client.png)
