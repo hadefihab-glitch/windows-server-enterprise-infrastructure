@@ -44,7 +44,7 @@ Au cours de ce projet, j’ai réalisé :
 
 Installation et configuration des principaux services Windows Server : Active Directory Domain Services (AD DS), DNS, DHCP et services de fichiers.
 
-![Services Windows Server](screenshots/01-windows-server-services.png)
+![Services Windows Server](screenshots/windows-server-services.png)
 
 ---
 
